@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7653" started-at="2018-11-11T14:27:30Z" finished-at="2018-11-11T14:27:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7653" started-at="2018-11-11T14:27:30Z" finished-at="2018-11-11T14:27:37Z">
+      <class name="API.darkSkyAPITest">
+        <test-method status="PASS" signature="validateCorrectNumberOfItems()[pri:0, instance:API.darkSkyAPITest@4520ebad]" name="validateCorrectNumberOfItems" duration-ms="5644" started-at="2018-11-11T19:57:30Z" finished-at="2018-11-11T19:57:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCorrectNumberOfItems -->
+        <test-method status="PASS" signature="validateTypeOfValuesOfKey()[pri:0, instance:API.darkSkyAPITest@4520ebad]" name="validateTypeOfValuesOfKey" duration-ms="1969" started-at="2018-11-11T19:57:35Z" finished-at="2018-11-11T19:57:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTypeOfValuesOfKey -->
+      </class> <!-- API.darkSkyAPITest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

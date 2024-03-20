@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18716" started-at="2019-06-16T16:19:09Z" finished-at="2019-06-16T16:19:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18716" started-at="2019-06-16T16:19:09Z" finished-at="2019-06-16T16:19:28Z">
+      <class name="test.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.LoginTest@5622fdf]" name="setUp" is-config="true" duration-ms="6348" started-at="2019-06-16T16:19:09Z" finished-at="2019-06-16T16:19:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.LoginTest@5622fdf]" name="setUp" is-config="true" duration-ms="7245" started-at="2019-06-16T16:19:15Z" finished-at="2019-06-16T16:19:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:test.LoginTest@5622fdf]" name="testLogin" duration-ms="4900" started-at="2019-06-16T16:19:23Z" finished-at="2019-06-16T16:19:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.LoginTest@5622fdf]" name="tearDown" is-config="true" duration-ms="189" started-at="2019-06-16T16:19:28Z" finished-at="2019-06-16T16:19:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.LoginTest@5622fdf]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-06-16T16:19:28Z" finished-at="2019-06-16T16:19:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

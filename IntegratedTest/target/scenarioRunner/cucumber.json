@@ -1,0 +1,248 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: Mudassar Iqbal(iqbal.cdac@gmail.com)"
+      }
+    ],
+    "line": 4,
+    "elements": [
+      {
+        "line": 7,
+        "name": "User should be able to verify the Response and Schema",
+        "description": "",
+        "id": "verification-of-the-api-schema-and-response;user-should-be-able-to-verify-the-response-and-schema",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 117101731,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The API Endpoint",
+            "match": {
+              "location": "apiTestSteps.the_API_Endpoint()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2856522614,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user use the Get method of API",
+            "match": {
+              "location": "apiTestSteps.user_use_the_Get_method_of_API()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 280211410,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should validate the schema and response",
+            "match": {
+              "location": "apiTestSteps.user_should_validate_the_schema_and_response()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Verification of the API schema and Response",
+    "description": "",
+    "id": "verification-of-the-api-schema-and-response",
+    "keyword": "Feature",
+    "uri": "apiTest.feature",
+    "tags": [
+      {
+        "line": 3,
+        "name": "@APIResponseAndSchema"
+      }
+    ]
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: Mudassar Iqbal(iqbal.cdac@gmail.com)"
+      }
+    ],
+    "line": 4,
+    "elements": [
+      {
+        "line": 7,
+        "name": "User should be able to search the flight status for any flight number",
+        "description": "",
+        "id": "verify-the-flight-running-status-based-on-flight-number;user-should-be-able-to-search-the-flight-status-for-any-flight-number",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18837071476,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Emirates mob app opens successfully",
+            "match": {
+              "location": "searchFlightStatusMobileSteps.emirates_mob_app_opens_successfully()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3290839186,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user navigates to the flight status",
+            "match": {
+              "location": "searchFlightStatusMobileSteps.user_navigates_to_the_flight_status()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7369277048,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter the fligt number",
+            "match": {
+              "location": "searchFlightStatusMobileSteps.user_enter_the_fligt_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 596112045,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click on find flights",
+            "match": {
+              "location": "searchFlightStatusMobileSteps.user_click_on_find_flights()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7931409366,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should see flight status",
+            "match": {
+              "location": "searchFlightStatusMobileSteps.user_should_see_flight_status()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Verify the flight running status based on flight number",
+    "description": "",
+    "id": "verify-the-flight-running-status-based-on-flight-number",
+    "keyword": "Feature",
+    "uri": "searchFlightStatusMobile.feature",
+    "tags": [
+      {
+        "line": 3,
+        "name": "@EmiratesMobFlightStatusAvailability"
+      }
+    ]
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: Mudassar Iqbal(iqbal.cdac@gmail.com)"
+      }
+    ],
+    "line": 4,
+    "elements": [
+      {
+        "line": 7,
+        "name": "User should be able to search the flight",
+        "description": "",
+        "id": "verify-the-flight-availability-from-source-to-destination;user-should-be-able-to-search-the-flight",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9550838780,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Emirates site opens successfully",
+            "match": {
+              "location": "searchFlightWebSteps.emirates_site_opens_successfully()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 49638381988,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user select departure and arrival destination return flight from one weak now",
+            "match": {
+              "location": "searchFlightWebSteps.user_select_departure_and_arrival_destination_return_flight_from_one_weak_now()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1464783907,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should see flight listing",
+            "match": {
+              "location": "searchFlightWebSteps.user_should_see_flight_listing()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Verify the flight availability from source to destination",
+    "description": "",
+    "id": "verify-the-flight-availability-from-source-to-destination",
+    "keyword": "Feature",
+    "uri": "searchFlightWeb.feature",
+    "tags": [
+      {
+        "line": 3,
+        "name": "@EmiratesWebFlightAvailability"
+      }
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="9331" started-at="2019-06-16T16:27:33Z" finished-at="2019-06-16T16:27:42Z">
+    <groups>
+    </groups>
+    <test name="Ajax load Test" duration-ms="9331" started-at="2019-06-16T16:27:33Z" finished-at="2019-06-16T16:27:42Z">
+      <class name="test.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.LoginTest@b684286]" name="setUp" is-config="true" duration-ms="6588" started-at="2019-06-16T16:27:33Z" finished-at="2019-06-16T16:27:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:test.LoginTest@b684286]" name="testLogin" duration-ms="2491" started-at="2019-06-16T16:27:40Z" finished-at="2019-06-16T16:27:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.LoginTest@b684286]" name="tearDown" is-config="true" duration-ms="220" started-at="2019-06-16T16:27:42Z" finished-at="2019-06-16T16:27:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.LoginTest -->
+    </test> <!-- Ajax load Test -->
+  </suite> <!-- Suite -->
+</testng-results>

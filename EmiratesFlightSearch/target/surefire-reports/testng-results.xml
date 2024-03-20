@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="EmiratesBooking" duration-ms="48762" started-at="2018-11-10T16:27:28Z" finished-at="2018-11-10T16:28:17Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.scenarioRunner@7823a2f9]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="48762" started-at="2018-11-10T16:27:28Z" finished-at="2018-11-10T16:28:17Z">
+      <class name="runners.scenarioRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runners.scenarioRunner@7823a2f9]" name="setUpClass" is-config="true" duration-ms="307" started-at="2018-11-10T16:27:28Z" finished-at="2018-11-10T16:27:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:runners.scenarioRunner@7823a2f9]" name="setup" is-config="true" duration-ms="5676" started-at="2018-11-10T16:27:28Z" finished-at="2018-11-10T16:27:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.scenarioRunner@7823a2f9]" name="feature" duration-ms="41408" started-at="2018-11-10T16:27:34Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-11-10T16:28:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[To check cheapest return ticket from DXB to LHR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:runners.scenarioRunner@7823a2f9]" name="tearDown" is-config="true" duration-ms="797" started-at="2018-11-10T16:28:16Z" finished-at="2018-11-10T16:28:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runners.scenarioRunner@7823a2f9]" name="tearDownClass" is-config="true" duration-ms="83" started-at="2018-11-10T16:28:17Z" finished-at="2018-11-10T16:28:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.scenarioRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- EmiratesBooking -->
+</testng-results>

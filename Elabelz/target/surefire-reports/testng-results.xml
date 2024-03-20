@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ElabelzSuite" duration-ms="37341" started-at="2019-10-04T20:49:35Z" finished-at="2019-10-04T20:50:12Z">
+    <groups>
+    </groups>
+    <test name="WebshopTest" duration-ms="37341" started-at="2019-10-04T20:49:35Z" finished-at="2019-10-04T20:50:12Z">
+      <class name="testClasses.testWebShop">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testClasses.testWebShop@6537cf78]" name="setUp" is-config="true" duration-ms="2555" started-at="2019-10-04T20:49:35Z" finished-at="2019-10-04T20:49:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testOpenHomePage()[pri:0, instance:testClasses.testWebShop@6537cf78]" name="testOpenHomePage" duration-ms="6439" started-at="2019-10-04T20:49:37Z" finished-at="2019-10-04T20:49:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOpenHomePage -->
+        <test-method status="PASS" signature="testRegisterNewUser()[pri:1, instance:testClasses.testWebShop@6537cf78]" name="testRegisterNewUser" duration-ms="10431" started-at="2019-10-04T20:49:44Z" finished-at="2019-10-04T20:49:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterNewUser -->
+        <test-method status="PASS" signature="testLoginWithExistingUser()[pri:2, instance:testClasses.testWebShop@6537cf78]" name="testLoginWithExistingUser" duration-ms="2379" started-at="2019-10-04T20:49:54Z" finished-at="2019-10-04T20:49:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithExistingUser -->
+        <test-method status="PASS" signature="testBuyOneProduct()[pri:3, instance:testClasses.testWebShop@6537cf78]" name="testBuyOneProduct" duration-ms="15361" started-at="2019-10-04T20:49:57Z" finished-at="2019-10-04T20:50:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBuyOneProduct -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testClasses.testWebShop@6537cf78]" name="tearDown" is-config="true" duration-ms="149" started-at="2019-10-04T20:50:12Z" finished-at="2019-10-04T20:50:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testClasses.testWebShop -->
+    </test> <!-- WebshopTest -->
+  </suite> <!-- ElabelzSuite -->
+</testng-results>
